@@ -1,0 +1,451 @@
+html body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Arial;
+}
+
+.navbar{
+    height: 20vh;
+    margin-left: 5%;
+    margin-right: 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.loc{
+    display: flex;
+    align-items: center;
+
+}
+
+.typoNavbar{
+    color: grey;
+    margin-right: 8%;
+    white-space: nowrap;
+}
+
+.typoNavbar2{
+    color: grey;
+    white-space: nowrap;
+    margin-right: 2%;
+}
+.marge{
+    margin-left: 10%;
+ }
+
+.logo {
+    background-position: center;
+    background-size: cover;
+    height: 5vh;
+    width: 5vh;
+    padding-right: 5%;
+    padding-left: 7%;
+}
+
+
+.loca{
+    background-image: url("loc.jpeg");
+}
+
+.tel{
+    background-image: url("tel.png");
+}
+.connexion{
+    background-image: url("connexion.png");
+}
+
+.panier{
+    background-image: url("panier.png");
+}
+
+.galeries{
+    background-image: url("galeries.png");
+    height: 20vh;
+    width: 30vw;
+    background-position: center;
+    background-size: cover;
+}
+
+.bordure{
+    border: 1px solid black;
+}
+
+.grandContenu{
+
+    border-top: 1px solid black;
+
+
+}
+
+.french{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 2%;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+
+}
+
+.search{
+    width: 40vh;
+    height: 10vh;
+    border-left: 1px solid black;
+    display: flex;
+
+}
+
+.recherche{
+
+
+}
+
+.searchbar{
+    margin-left: 2%;
+    border: none;
+    width: 15vw;
+
+}
+
+.fond{
+    background-image: url("fondgaleries.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 75vh;
+    border-top: 1px solid black;
+}
+
+.carreFond{
+    height: 75vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.exclu{
+
+    font-size: 0.8em;
+    margin-top: 3%;
+    margin-bottom: 8%;
+}
+
+.titre{
+    font-size: 5em;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+.description{
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.profiter{
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 4%;
+}
+
+.rectangleBouton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 90vw;
+
+}
+
+.dispositionBouton{
+    display: flex;
+    justify-content: center;
+}
+
+.boutons{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 30px;
+    color: white;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    display: inline-block;
+}
+
+.voir{
+    margin-right: 5%;
+}
+
+.rectangleBlanc{
+    height: 10vh;
+    background-color: white;
+    color: grey;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.actu{
+    height: 50vh;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+
+
+}
+
+.titreActu{
+    width: 15vw;
+    border-right: 1px solid black;
+
+    padding-left: 3%;
+    padding-top: 5%;
+    border-left: 1px solid black;
+    font-weight: bolder;
+    font-size: 2.5em;
+}
+
+.offres{
+    width: 20vw;
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.affichePromo{
+    background-image: url("img_1.png");
+    background-size: cover;
+    background-position: center;
+    height: 35vh;
+    width: 16vw;
+    margin-bottom: 7%;
+}
+
+.titrePromo{
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-left: 5%;
+}
+
+.descriptionPromo{
+    margin-left: 5%;
+    font-size: 0.7em;
+    margin-bottom: 10%;
+}
+
+.redirection{
+    margin-left: 5%;
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-bottom: 5%;
+}
+
+.bonneCause{
+    display: flex;
+    height: 80vh;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.titreCause{
+    width: 10vw;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.rose{
+    width: 90vw;
+    background-color: deeppink;
+    border-right: 1px solid black;
+}
+
+.contenuRose{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3%;
+    margin-right: 5%;
+    justify-content: center;
+}
+
+.octobreRose{
+    display: flex;
+    flex-direction:column;
+    flex: 1;
+    color: white;
+    margin-top: 15%;
+    padding-right: 20%;
+}
+
+.affiche{
+    flex: 1;
+    display: flex;
+    height: 50vh;
+    width: 40vw;
+    margin-top: 10%;
+
+}
+
+
+
+.imgRose{
+    background-image: url("img_2.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.black{
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    width: 8vw;
+    padding: 1%;
+    margin-top: 5%;
+}
+
+.titreOctobre{
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+.rectangleFin{
+    height: 40vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+
+
+.reservation{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 25vh;
+}
+
+.icone{
+    background-position: center;
+    background-size: cover;
+    height: 5vh;
+    width: 5vh;
+}
+
+.sac{
+    background-image: url("img_3.png");
+}
+
+.change{
+    background-image: url("img_4.png");
+}
+
+.truck{
+    background-image: url("img_5.png");
+}
+
+.valeurs{
+    background-image: url("img_6.png");
+}
+
+.lienFin{
+    color: grey;
+}
+
+.rectangleNoir{
+    background-color: black;
+    height: 50vh;
+    margin-right: 5%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+.titreBlack{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.iconeBlack{
+    display: flex;
+    width: 40vw;
+    justify-content: flex-end;
+}
+
+.rondWhite{
+    width: 10vh;
+    height: 10vh;
+    background-color: white;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 5%;
+}
+
+.ig{
+    background-image: url("img_7.png");
+    background-size: 3em;
+}
+
+.facebook{
+    background-image: url("img_8.png");
+    background-size: 3em;
+}
+
+.pinterest{
+    background-image: url("img_9.png");
+    background-size: 3em;
+}
+
+.rectangleMenu{
+    height: 90vh;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-bottom: 5%;
+}
+
+.produits{
+    display: flex;
+}
+
+.marque{
+    display: flex;
+    flex-direction: column;
+    margin-right: 16%;
+}
+
+.marginBottom{
+    margin-bottom: 3%;
+}
