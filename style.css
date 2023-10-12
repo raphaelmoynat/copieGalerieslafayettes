@@ -618,6 +618,7 @@ html body{
 .surligne{
     letter-spacing: -1px;
     color: grey;
+    text-decoration: none;
 }
 
 .surligne:hover{
