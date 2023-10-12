@@ -2,7 +2,7 @@ html body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    font-family:Arial;
+    font-family: Arial;
 }
 
 .navbar{
@@ -40,6 +40,7 @@ html body{
     white-space: nowrap;
     margin-right: 2%;
 }
+
 .marge{
     margin-left: 10%;
 }
@@ -98,6 +99,20 @@ html body{
 
 .frenchDays{
     letter-spacing: -1px;
+    cursor: pointer;
+}
+
+.frenchDays:hover{
+    border-bottom: 2px solid grey;
+    transition: 0.3s;
+}
+
+.lightBlue{
+    color: #29bbff;
+}
+
+.lightPink  {
+    color: #9f4494;
 }
 
 .search{
@@ -184,7 +199,6 @@ html body{
     padding-right: 5%;
     padding-top: 3%;
     padding-bottom: 3%;
-    display: inline-block;
     letter-spacing: -1px;
     font-weight: bold;
     display: flex;
@@ -348,10 +362,8 @@ html body{
 
 .contenuRose{
     display: flex;
-    justify-content: space-between;
     margin-left: 3%;
     margin-right: 5%;
-    justify-content: center;
 }
 
 .octobreRose{
@@ -442,7 +454,7 @@ html body{
 }
 
 .typoBlack{
-    color: black;’
+    color: black;
 }
 
 .imgBeige{
@@ -470,6 +482,7 @@ html body{
     flex-direction: column;
     width: 20vw;
     height: 25vh;
+    margin-right: 3%;
 }
 
 .icone{
@@ -477,6 +490,10 @@ html body{
     background-size: cover;
     height: 5vh;
     width: 5vh;
+}
+
+.annonce{
+    letter-spacing: -1px;
 }
 
 .sac{
